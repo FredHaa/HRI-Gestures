@@ -1,8 +1,7 @@
-# SDU Gestures for Human Robot Interaction Dataset (SDU-Gestures)
+# HRI-Gestures: Gesture Recognition Dataset for Human Robot Interaction
+HRI-Gestures is a gesture recognition dataset for Human Robot Interaction. More information can be found in "put paper link"
 
-SDU-Gestures is a gesture recognition dataset for Human Robot Interaction. More information can be found in "put paper link"
-
-SDU-Gestures consists of RGB images, depth images and extracted joint positions extracted from human detection and pose estimation.
+HRI-Gestures consists of RGB images, depth images and extracted joint positions extracted from human detection and pose estimation.
 
 For questions regarding the dataset  (norbert@mmmi.sdu.dk).
 
