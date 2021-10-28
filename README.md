@@ -3,7 +3,7 @@ HRI-Gestures is a gesture recognition dataset for Human Robot Interaction. More 
 
 HRI-Gestures consists of RGB images, depth images and extracted joint positions extracted from human detection and pose estimation.
 
-For questions regarding the dataset  (norbert@mmmi.sdu.dk).
+For questions regarding the dataset please contact the paper authors.
 
 ### Access to the dataset
 The skeleton/joint files can be found in the folder "dataset/skeletons"
