@@ -12,7 +12,7 @@ For access to the image data please contact norbert@mmmi.sdu.dk. The data can on
 
 ### Dataset structure
 HRI-Gestures includes samples from 17 different subjects, 20 action classes, and 4 views. Each sample includes:
-* Sequence of RGB images
+* Sequence of RGB images (add resolution)
 * Sequence of depth images
 * Skeleton file
 
@@ -22,11 +22,15 @@ All data is divided into Ssss folders containing all data recording for said sub
 
 C001-C003 are Intel RealSense D415 cameras and C004 is a Intel RealSense D455 camera.
 
+**Data Resolution:**
+Both RGB and depth images of all 4 cameras have a resolution of 1280x720.
+The skeletons are comprised of the 3D positions of the 17 joints (*Nose*, *Left Eye*, *Right Eye*, *Left Ear*, *Right Ear*, *Left Shoulder*, *Right Shoulder*, *Left Elbow*, *Right Elbow*, *Left Wrist*, *Right Wrist*, *Left Hip*, *Right Hip*, *Left Knee*, *Right Knee*, *Left Ankle*, *Right Ankle*)
+
 Skeletons are extracted using [https://www.scitepress.org/Papers/2020/98884/pdf/index.html](https://www.scitepress.org/Papers/2020/98884/pdf/index.html)
 
 ### Action classes
 Actions are divided into two categories: Interactive and passive.
-The interactive classes include A001-A015 in the following order
+**Interactive** classes include A001-A015 in the following order
 * Stop
 * Go Right
 * Go Left
@@ -43,7 +47,7 @@ The interactive classes include A001-A015 in the following order
 * Take This
 * Pick Up
 
-Passive actions includes A015-A020 with the following order:
+**Passive** actions include A015-A020 with the following order:
 * Standing Still
 * Being Seated
 * Walking Towards
@@ -51,4 +55,8 @@ Passive actions includes A015-A020 with the following order:
 * Talking on Phone
 
 ### Evaluation Methods
-Cross-Subject (CS), where  and Cross-Repetition (CR) evaluations are introduced in (paper). CS: S0xx, S0xx and S0xx are used for validation. CR: all even numbered repetitions are used for validation
+Cross-Subject (CS) and Cross-Repetition (CR) evaluations are introduced in (paper). CS: S0xx, S0xx and S0xx are used for validation. CR: all even numbered repetitions are used for validation
+
+### Example Code
+* How to read/visualise skeleton files:
+* Train simple network based on the RA-GCN.
