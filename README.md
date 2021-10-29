@@ -12,7 +12,7 @@ For access to the image data please contact norbert@mmmi.sdu.dk. The data can on
 
 ### Dataset structure
 HRI-Gestures includes samples from 17 different subjects, 20 action classes, and 4 views. Each sample includes:
-* Sequence of RGB images (add resolution)
+* Sequence of RGB images
 * Sequence of depth images
 * Skeleton file
 
