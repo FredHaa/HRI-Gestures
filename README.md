@@ -6,7 +6,7 @@ HRI-Gestures consists of RGB images, depth images and extracted joint positions 
 For questions regarding the dataset please contact the paper authors.
 
 ### Access to the dataset
-The skeleton/joint files can be found in the folder "dataset/skeletons"
+The skeleton/joint files can be downloaded [here](https://nextcloud.sdu.dk/index.php/s/AiyBziPXNGFmTTw).
 
 For access to the image data please contact norbert@mmmi.sdu.dk. The data can only be used for research purposes.
 
