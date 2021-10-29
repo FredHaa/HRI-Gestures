@@ -20,7 +20,7 @@ All files are named in the format AaaaSsssRrrrCccc, where Aaaa is the action cla
 
 All data is divided into Ssss folders containing all data recording for said subject.
 
-C001-C003 are Inter RealSense D415 cameras and C004 is a Intel RealSense D455 camera.
+C001-C003 are Intel RealSense D415 cameras and C004 is a Intel RealSense D455 camera.
 
 Skeletons are extracted using [https://www.scitepress.org/Papers/2020/98884/pdf/index.html](https://www.scitepress.org/Papers/2020/98884/pdf/index.html)
 
